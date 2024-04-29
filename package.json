@@ -1,0 +1,21 @@
+{
+  "name": "prova-pedro-h-a-22114290014",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --env-file=.env ./server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adonis": "^0.9.0",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.1",
+    "node": "^20.11.1",
+    "nodemon": "^3.1.0",
+    "restaurant": "^1.2.11"
+  }
+}
